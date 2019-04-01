@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+  <title>Joshua's Quiz</title>
+  <link href="CSS/styles.css" rel="stylesheet" type="text/css">
+  <script src= "javascript/main.js"></script>
+
+</head>
+
+<body>
+
+  <h1> Have a blast! </h1>
+
+  <form id = "quiz" name= "quiz">
+
+
+
+    <p>What is the capital of Kenya?</p>
+    <input id = "textbox" type="text" name = "question1">
+
+    <p>What is the capital of Uganda?</p>
+    <input type = "radio" id = "mc" name = "question2" value = "Kampala"> Kampala<br>
+    <input type = "radio" id = "mc" name = "question2" value = "Juba"> Juba<br>
+
+    <p> What is the capital of Tanzania?</p>
+
+    <input type = "radio" id = "mc" name = "question3" value = "Arusha"> Arusha<br>
+    <input type = "radio" id = "mc" name = "question3" value = "Kigali"> Kigali<br>
+
+
+    <input id ="button" type="button" value="I'm done!" onclick="check();">
+
+  </form>
+
+  <div id="after_submit">
+    <p id="message"></p>
+    <p id="number_correct"></p>
+    <img id="images">
+  </div>
+</body>
+</html>
