@@ -20,4 +20,19 @@ input {
   transition-duration: .5s;
   margin-top: 15px;
 }
-#
+#button:hover {
+  background: white;
+  border: 1px solid green;
+  color: black;
+  cursor: pointer;
+}
+#after_submit {
+  visibility: hidden;
+  background: #ff5459;
+  padding: 10px 20px 10px 20px;
+  width: 400px;
+  border-radius: 20px;
+  float: left;
+  margin -left: 20px;
+  font-size: 30px;
+}
