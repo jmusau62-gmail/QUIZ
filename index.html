@@ -5,8 +5,8 @@
 
 
   <title>Joshua's Quiz</title>
-  <link rel="CSS/styles.css" href="stylesheet" type="text/css">
-  <link rel="stylesheet" href="CSS/bootstrap">
+  <link rel="CSS/styles.css" href="stylesheet" type="text/CSS">
+  <link rel="stylesheet" href="CSS/bootstrap.css" type="text/CSS">
   <script src= "javascript/main.js"></script>
 
 </head>
@@ -16,6 +16,7 @@
     <h1>Have a blast!</h1>
     <h2> let the games begin...</h2>
   </div>
+<div class= "container">
 
 
   <form id = "quiz" name= "quiz">
@@ -35,10 +36,12 @@
     <input type = "radio" id = "mc" name = "question3" value = "Kigali"> Kigali<br>
 
 
-    <input id ="button" type="button" value="I'm done!" onclick="check();">
+    <input id ="button" type="button"  class= "btn btn-danger" value="I'm done!" onclick="check();"></buttton>
+
+
 
   </form>
-
+</div>
   <div id="after_submit">
     <p id="message"></p>
     <p id="number_correct"></p>
