@@ -1,3 +1,11 @@
+body{
+  background-image: url(/home/musau/Desktop/QUIZ/images/KRU.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
 #quiz {
     bargain-left : 10px;
     background: #d2def2;
