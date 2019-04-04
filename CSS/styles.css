@@ -1,4 +1,30 @@
+body{
+    background-image: url(/home/musau/Desktop/QUIZ/images/KRU.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
 .container{
   text-align: center;
 
+}
+#br{
+  color: orange;
+}
+#after_submit{
+  background-color: transparent;
+  color:gold;
+}
+#cr{
+  color: orange;
+}
+
+#dr{
+  color: orange;
+}
+#button{
+  background-color: red;
+  color: blue;
 }
